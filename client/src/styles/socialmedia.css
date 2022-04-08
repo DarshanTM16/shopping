@@ -1,0 +1,103 @@
+.socialmedia{
+    height: 130px;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 30px 50px;
+    grid-column-gap: 40px;
+    grid-row-gap: 20px;
+}
+
+.ishoptitle{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #b8babd;
+    grid-column: 1/2;
+    letter-spacing: 0.3px;
+}
+
+.followtitle{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+}
+
+.contacttitle{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+}
+
+.fbicon{
+    margin-top: 20px;
+}
+
+.twittericon{
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+/* styling for mobile view of social media  */
+
+
+@media (max-width: 700px) {
+    
+    .socialmedia{
+        width: 70%;
+        margin-left: 15%;
+        height: 340px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 35px 80px 25px 80px 25px 45px;
+        grid-row-gap: 10px;
+    }
+
+    .ishoptitle{
+        grid-row: 1/2;
+        text-align: center;
+        font-size: 2.4rem;
+    }
+
+    .ishopdetails{
+        grid-row: 2/3;
+        text-align: center;
+    }
+
+    .followtitle{
+        grid-column: 1/2;
+        grid-row: 3/4;
+        text-align: center;
+    }
+
+    .followdetails{
+        grid-column: 1/2;
+        grid-row: 4/5;
+        text-align: center;
+    }
+
+    .contacttitle{
+        grid-column: 1/2;
+        grid-row: 5/6;
+        text-align: center;
+    }
+
+    .contactdetails{
+        grid-column: 1/2;
+        grid-row: 6/7;
+        text-align: center;
+    }
+
+    .fbicon{
+        margin-top: 15px;
+    }
+
+    .twittericon{
+        margin-top: 15px;
+    }
+
+}

@@ -1,0 +1,91 @@
+.accHeading{
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+    background-color: #F6F7F8;
+    color: #33A0FF;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topBanner{
+    width: 100%;
+    height: 360px;
+    margin-top: 30px;
+    background-image: url('./../../public/Images2/corousel_8.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+}
+
+.acolumn{
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.pageButtons{
+    width: 100%;
+    margin-top: 40px;
+    background-color: #F6F7F8;
+}
+
+.aButtons{
+    width: 20%;
+    margin-left: 40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.aButtons div{
+    cursor: pointer;
+}
+
+
+.aButtons .false{
+    font-size: 1.5rem;
+    color: black;
+    border-radius: 1px;
+    padding: 5px;
+    width: 8%;
+    text-align: center;
+}
+
+.variableClass{
+    color: white;
+    background-color: #22262A;
+    font-size: 1.5rem;
+    border-radius: 1px;
+    padding: 5px;
+    width: 8%;
+    text-align: center;
+}
+
+
+@media (max-width: 700px) {
+    .topBanner{
+        background-image: url('./../../public/Images2/mobile_c3.png');
+        height: 370px;
+        margin-top: 20px;
+    }
+
+    .acolumn{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aButtons{
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    .accHeading{
+        margin-top: 5px;
+    }
+}

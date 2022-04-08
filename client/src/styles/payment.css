@@ -1,0 +1,25 @@
+.payment{
+    width: 18%;
+    margin-top: 60px;
+    margin-left: 70%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.payment img{
+    width: 40px;
+    height: 26px;
+}
+
+
+/* styling for mobile view of payment componenet  */
+
+
+@media (max-width: 700px) {
+    
+    .payment{
+        width: 70%;
+        margin-left: 15%;
+    }
+}

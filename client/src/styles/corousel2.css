@@ -1,0 +1,33 @@
+.Corousel2{
+    width: 100%;
+    height: 70vh;
+    margin-top: 25px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.carouseltwoMobile{
+    margin-top: 60px;
+    display: none;
+}
+
+
+
+/* styling for mobile view of carousel-2  */
+
+
+@media (max-width: 700px) {
+    
+    
+    .Corousel2{
+        display: none;
+    }
+
+    .carouseltwoMobile{
+        display: block;
+        margin-top: 5px;
+    }
+
+    
+}

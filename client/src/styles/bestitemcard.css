@@ -1,0 +1,128 @@
+/* .bestitemcard{
+    width: 230px;
+    height: 300px;
+    border: 1.5px solid #e8eaeb;
+    border-radius: 2px;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    transition: box-shadow 0.2s;
+} */
+
+/* .bestitemcard:hover{
+    box-shadow: 3px 3px 12px rgb(230, 230, 230), -3px 3px 12px rgb(230, 230, 230);
+} */
+
+/* .bestitemcard .itemimage{
+    width: 100%;
+    height: 155px;
+    position: relative;
+} */
+
+/* .hoverContent{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0;
+    transition: opacity 0.3s;
+} */
+
+/* .bestitemcard:hover .hoverContent{
+    opacity: 1;
+}
+
+.hoverContent .fa-heart{
+    color: #2E90E5;
+    border: 2px solid #2E90E5;
+    border-radius: 50%;
+    padding: 7px;
+}
+
+/* .fa-heart:hover{
+    color: #0330f8;
+    border-color: #0330f8;
+}
+
+
+.hoverContent .fa-cart-plus{ */
+    /* color: #2E90E5;
+    border: 2px solid #2E90E5;
+    border-radius: 50%;
+    padding: 7px;
+} */
+
+/* .fa-cart-plus:hover{
+    color: #0330f8;
+    border-color: #0330f8;
+} */
+/* 
+
+.itemimage::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffff;
+    opacity: 0;
+    /* z-index: 4; */
+    /* transition: opacity 0.3s; */
+/* } */
+
+/* .bestitemcard:hover .itemimage::after{ */
+    /* opacity: 0.9; */ 
+/* } */
+
+/* .bestitemcard img{
+    width: 85%;
+    height: 85%;
+}  */
+
+/* .bestitemcard .itemname{
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+
+.bestitemcard .rating{
+    font-size: 1.4rem;
+    /* margin-top: 7%; */
+/* } */
+
+/* .bestitemcard .fa-star{
+    color: #FFC600;
+    margin-left: 2.5px;
+}
+
+.bestitemcard #fifthstar{
+    color: #C1C8CE;
+}  */
+
+/* .bestitemcard .currentprice{
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    color: #FF4858;
+}
+
+.bestitemcard .realprice{
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    color: #c9c9c9;
+    text-decoration: line-through;
+    margin-left: 8px;
+} */
+
+/* .currentprice, .realprice{
+    display: inline-block;
+} */

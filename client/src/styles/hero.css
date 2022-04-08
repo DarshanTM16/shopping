@@ -1,0 +1,30 @@
+.hero{
+    height: 70vh;
+    width: 100%;
+    margin-top: 15px;
+    position: relative;
+}
+
+
+.mobileHero{
+    display: none;
+}
+
+
+
+
+/* Styling for mobileview of hero  */
+
+
+
+@media (max-width: 700px) {
+    .hero{
+        display: none;
+
+    }
+    
+    .mobileHero{
+        display: block;
+    }
+    
+}

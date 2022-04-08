@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+}
+
+.firstContainer{
+    width: 70%;
+    height: 8vh;
+    margin-left: 15%;
+}
+
+.navbar{
+    width: 50%;
+    margin-left: 25%;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    color: #FF4252;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+}
+
+.logo .i{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.navitembox{
+    margin-top: 20px;
+}
+
+.navbar .navitembox .navitems{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.navitems li{
+    font-size: 1.2rem;
+    letter-spacing: 0.6px;
+    font-weight: 500;
+}
+
+.navMenu{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 13px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 15px 20px #0000001A;
+    position: absolute;
+    z-index: 100;
+    animation-name: heightanimate;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.navmenuChange{
+    display: none;
+}
+
+.navmenuItems{
+    list-style-type: none;
+    padding: 10px 0px;
+}
+
+.navmenuItems li{
+    margin-top: 11px;
+    font-size: 10px;
+    letter-spacing: 0.3px;
+    font-weight: 500;
+}
+
+.col-1, .col-2{
+    margin-top: 29px;
+}
+
+#ac, #ct{
+    color: #C1C8CE;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+@keyframes heightanimate{
+    0%{
+        height: 0px;
+        color: transparent;
+    }
+    20%{
+        color: transparent;
+    }
+    40%{
+        color: transparent;
+    }
+    60%{
+        color: transparent;
+    }
+    80%{
+        color: black;
+    }
+    100%{
+        color: black;
+        height: 168px;
+    }
+}
+
+
+.mobileNavbar{
+    display: none;
+}
+
+.m-logo{
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    color: #FF4252;
+}
+
+#m-i{
+    font-size: 3rem;
+    font-weight: 500;
+    margin-right: 1px;
+}
+
+
+.m-navMenu{
+    display: none;
+    color: white;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 20;
+    background-color: rgba(43, 40, 40, 0.5);
+    backdrop-filter: blur(10px);
+    animation-name: heightChange;
+    animation-duration: 0.6s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes heightChange {
+    from{
+        height: 0%;
+    }
+    to{
+        height: 100%;
+    }
+}
+
+.m-navMenu-change{
+    display: none;
+}
+
+
+.m-navMenuItems{
+    height: 420px;
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.m-navMenuItems li{
+    width: 100%;
+    font-size: 1.6rem;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+}
+
+#searchbar{
+    width: 70%;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #8b8989;
+    padding-left: 10px;
+    border-radius: 28px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    outline: none;
+}
+
+
+/* styling for Navlink  */
+
+.linkClass{
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+#stpoint{
+    cursor: pointer;
+}
+
+.storelinkClass{
+    text-decoration: none;
+    color: #C1C8CE;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.active{
+    color: #2E90E5;
+}
+
+
+
+
+/* Styling for responsiveness of navbar  */
+
+
+@media  (max-width: 700px) {
+
+    *{
+        overflow-x: hidden;
+    }
+
+    .mobileNavbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 86%;
+        height: 70px;
+        margin-left: 7%;
+    }
+
+    .navbar{
+        display: none;
+    }
+
+    .firstContainer{
+        display: none;
+    }
+
+    .m-navMenu{
+        display: inline-block;
+    }
+
+    .linkClass{
+        text-decoration: none;
+        font-size: 1.6rem;
+        color: white;
+    }
+
+    .active{
+        color: white;
+    }
+}
+
+
+

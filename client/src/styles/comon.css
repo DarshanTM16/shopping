@@ -1,0 +1,17 @@
+.comon{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+@media (max-width: 700px)  {
+    .comon{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5px;
+    }
+}

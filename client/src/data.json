@@ -1,0 +1,81 @@
+[
+    {
+        "type": "iphone"
+    },
+    {
+        "itemName": "Apple MacBook Pro",
+        "itemImage": "Images/Apple Macbook Air.png",
+        "realPrice": "$599",
+        "currentPrice": "$499"
+    },
+    {
+        "itemName": "Apple MacBook Pro",
+        "itemImage": "Images/Apple Macbook Air.png",
+        "realPrice": "$599",
+        "currentPrice": "$499"
+    },
+    {
+        "itemName": "Apple MacBook Air",
+        "itemImage": "Images/Apple Macbook Air.png",
+        "realPrice": "$599",
+        "currentPrice": "$499"
+    },
+    {
+        "itemName": "Apple iPhone 11",
+        "itemImage": "Images/Apple iPhone 11.png",
+        "realPrice": "$599",
+        "currentPrice": "$499"
+    },
+    {
+        "itemName": "Apple iPhone 12",
+        "itemImage": "Images/Apple iPhone 11.png",
+        "realPrice": "$599",
+        "currentPrice": "$499"
+    },
+    {
+        "itemName": "Apple Watch 21-1",
+        "itemImage": "Images/Apple Watch 21-1.png",
+        "realPrice": "$599",
+        "currentPrice": "$499"
+    },
+    {
+        "itemName": "Apple iPad",
+        "itemImage": "Images/Apple Ipad.png",
+        "realPrice": "$599",
+        "currentPrice": "$499"
+    },
+    {
+        "itemName": "Apple iPod 2A",
+        "itemImage": "Images/apple_iPod_2A.png",
+        "realPrice": "$599",
+        "currentPrice": "$499"
+    },
+    {
+        "serviceImage": "Images3/shipping.svg",
+        "serviceHeading": "FREE SHIPPING",
+        "serviceDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae officiis, voluptas nulla ab consequatur esse ad aspernatur totam quasi adipisci."
+    },
+    {
+        "serviceImage": "Images3/refund.svg",
+        "serviceHeading": "100% REFUND",
+        "serviceDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae officiis, voluptas nulla ab consequatur esse ad aspernatur totam quasi adipisci."
+    },
+    {
+        "serviceImage": "Images3/support.svg",
+        "serviceHeading": "SUPPORT 24/7",
+        "serviceDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae officiis, voluptas nulla ab consequatur esse ad aspernatur totam quasi adipisci."
+    },
+    {
+        "f1": "About Us",
+        "f2": "Information",
+        "f3": "Privacy Policy",
+        "f4": "Terms & Conditions"
+    },
+    {
+        "p1": "Images3/Western_union.svg",
+        "p2": "Images3/master_card.svg",
+        "p3": "Images3/Paypal.svg",
+        "p4": "Images3/visa.svg"
+    }
+
+]

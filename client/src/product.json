@@ -1,0 +1,37 @@
+[
+    {
+        "id": 0,
+        "itemName": "Apple MacBook Pro",
+        "itemImage": "Images/Apple Macbook Air.png",
+        "realPrice": "$599",
+        "currentPrice": "$499"
+    },
+    {
+        "id": 1,
+        "itemName": "Apple iPhone 11",
+        "itemImage": "Images/Apple iPhone 11.png",
+        "realPrice": "$599",
+        "currentPrice": "$499"
+    },
+    {
+        "id": 2,
+        "itemName": "Apple iPad",
+        "itemImage": "Images/Apple Ipad.png",
+        "realPrice": "$599",
+        "currentPrice": "$499"
+    },
+    {
+        "id": 3,
+        "itemName": "Apple iPod 2A",
+        "itemImage": "Images/apple_iPod_2A.png",
+        "realPrice": "$599",
+        "currentPrice": "$499"
+    },
+    {
+        "id": 4,
+        "itemName": "Apple Watch 21-1",
+        "itemImage": "Images/Apple Watch 21-1.png",
+        "realPrice": "$599",
+        "currentPrice": "$499"
+    }
+]

@@ -1,0 +1,12 @@
+.carouseltwoMobile{
+    display: none;
+}
+
+@media (max-width: 700px) {
+    .carouseltwoMobile{
+        display: block;
+    }
+    .carousel3{
+        display: none;
+    }
+}

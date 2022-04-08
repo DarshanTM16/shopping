@@ -1,0 +1,22 @@
+
+
+
+
+.featuredproducts li{
+    /* margin-left: 1.25%; */
+}
+
+
+@media (max-width: 500px) {
+    .fClass{
+        width: 70%;
+        margin-left: 18%;
+    }
+
+    .featuredproducts button{
+        display: none;
+    }
+    .featuredproducts li{
+        margin-left: auto;
+    }
+}
